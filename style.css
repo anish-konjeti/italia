@@ -1,0 +1,95 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: blanchedalmond
+}
+
+.navbartabs {
+    font-size: 20px;
+    color: orange;
+    padding:20px;
+}
+
+
+body {
+	background-color: orange;
+}
+
+* {
+    font-family: "Gabarito", sans-serif;
+    margin: 0px;
+}
+
+.restaurantname {
+	font-size: 60px; 
+    background-color: bisque;
+    display:flex;
+    justify-content:center;
+    padding: 30px;
+    gap: 10px;
+    border-radius: 10px;
+    margin: 50px;
+    border:10px solid;
+    border-color:rgb(247, 210, 162);
+}
+
+.opening {
+    display:flex;
+    justify-content:center;
+    border:3px solid;
+    border-color: rgb(247, 210, 162);
+    border-radius: 10px;
+    background-color: antiquewhite;
+    margin:75px;
+    padding: 10px;
+}
+
+.pastaimage {
+    display:flex;
+    justify-content:center;
+    border:3px solid;
+    border-color: burlywood;
+    border-radius: 10px;
+    height:15vw;
+}
+
+.parentimages {
+    background-color:blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding:20px;
+}
+
+.titleimage {
+    display:flex;
+    justify-content:center;
+    width:50%;
+    height:65vh;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 40px;
+}
+
+.origins {
+    font-size: 60px;
+    color: white;
+    }
+
+.origincontainer {
+    background-color: orange;
+    display:flex;
+    gap:40px;
+    padding:50px;
+}
+
+.info {
+    font-size: 20px;
+    color: white;
+    display: flex;
+}
+
+.origin-text {
+    width: 50%;
+}
